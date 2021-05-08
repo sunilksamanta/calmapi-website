@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'CALM API',
     author: 'Sunil Kr. Samanta',
-    description: 'PRODUCTION READY REST API STARTER PACKAGE USING NODEJS & MONGODB',
+    description: 'PRODUCTION READY REST API STARTER USING NODEJS & MONGODB',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
