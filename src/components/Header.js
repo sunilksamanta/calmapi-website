@@ -10,8 +10,10 @@ const Header = props => (
       <div className="inner">
         <h1>CALM API</h1>
         <p>
-          Production ready REST API Starter Package using NodeJS & MongoDB<br/>
-          <code style={{textTransform: 'none'}}>npm i -g calmapi</code>
+          Production ready REST API Starter Package using NodeJS & MongoDB
+        </p>
+        <p>
+          <code style={{textTransform: 'none', marginTop: '5px'}}>npm i -g calmapi</code>
         </p>
       </div>
     </div>
