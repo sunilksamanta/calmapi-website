@@ -31,7 +31,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Calm API</h2>
           <span className="image main">
-            <img src={aboutImage} alt="" />
+            <img style={{filter: 'grayscale(100%)'}} src={aboutImage} alt="" />
           </span>
           <a style={{borderBottom: 'none'}} href={'https://github.com/sunilksamanta/calmapi'} target={'_blank'} ><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/sunilksamanta/calmapi?label=Github%20Stars&style=for-the-badge"/></a>
           <a style={{borderBottom: 'none'}} href={'https://www.npmjs.com/package/calmapi'} target={'_blank'} ><img style={{marginLeft: '2px'}} alt="npm" src="https://img.shields.io/npm/v/calmapi?style=for-the-badge"/></a>
