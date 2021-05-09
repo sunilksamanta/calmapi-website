@@ -10,7 +10,7 @@ const Header = props => (
       <div className="inner">
         <h1>CALM API</h1>
         <p>
-          A Production ready REST API Starter using NodeJS & MongoDB
+          A Production ready REST API Generator using NodeJS & MongoDB
         </p>
         <p>
           <code style={{textTransform: 'none', marginTop: '5px'}}>npm i -g calmapi</code>

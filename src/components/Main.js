@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import aboutImage from '../images/about.jpeg'
+import aboutImage from '../images/about.jpg'
 
 class Main extends React.Component {
   render() {
@@ -34,7 +34,7 @@ class Main extends React.Component {
           <a style={{borderBottom: 'none'}} href={'https://github.com/sunilksamanta/calmapi'} target={'_blank'} rel="noreferrer"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/sunilksamanta/calmapi?label=Github%20Stars&style=for-the-badge"/></a>
           <a style={{borderBottom: 'none'}} href={'https://www.npmjs.com/package/calmapi'} target={'_blank'} rel="noreferrer"><img style={{marginLeft: '2px'}} alt="npm" src="https://img.shields.io/npm/v/calmapi?style=for-the-badge"/></a>
           <p>
-            Production ready Modular REST API Starter using NodeJS & MongoDB
+            Production ready Modular REST API Generator using NodeJS & MongoDB
           </p>
           <p>
             Install by running <code>npm i -g calmapi</code><br/>
