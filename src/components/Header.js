@@ -20,7 +20,7 @@ const Header = props => (
     <nav>
       <ul>
         <li>
-          <button
+          <button style={{display: 'inline-block'}}
             onClick={() => {
               props.onOpenArticle('about')
             }}

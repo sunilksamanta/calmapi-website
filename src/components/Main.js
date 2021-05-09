@@ -69,8 +69,8 @@ class Main extends React.Component {
           <h3>Contributors</h3>
           <p>
             <ul>
-              <li>Sunil Kr. Samanta</li>
-              <li>Rajdip Mondal</li>
+              <li><a href={'https://github.com/sunilksamanta'} target={'_blank'} rel={'noreferrer'} style={{borderBottom: 'none'}}>Sunil Kr. Samanta</a></li>
+              <li><a href={'https://github.com/RajdipM'} target={'_blank'} rel={'noreferrer'} style={{borderBottom: 'none'}}>Rajdip Mondal</a></li>
               <li>You!</li>
             </ul>
 
