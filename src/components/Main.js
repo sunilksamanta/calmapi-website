@@ -50,7 +50,6 @@ class Main extends React.Component {
           <p>
             <ul>
               <li>Production ready - Controller, Model & Service oriented architecture</li>
-              <li>Production ready - Controller, Model & Service oriented architecture</li>
               <li>Modules with automated Routing (Nested Route support)</li>
               <li>Built-in Authentication Module with JWT & DB Store authentication</li>
               <li>Built-in User Module</li>
@@ -61,6 +60,7 @@ class Main extends React.Component {
               <li>Prebuilt CRUD operation classes for Controller & Service</li>
               <li>DTO Support( Data transfer Object)</li>
               <li>Eslint rules enabled</li>
+              <li>.env support</li>
               <li>And many more</li>
               <li>Build with Love</li>
             </ul>
