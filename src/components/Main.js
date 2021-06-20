@@ -41,6 +41,17 @@ class Main extends React.Component {
             Run <code>calmapi</code> inside your workspace directory and follow the easy steps.
           </p>
 
+          <h3>Module Generation</h3>
+          <p>
+            Run <code>calmapi generate module product</code> inside your project's root directory.
+            <br/>
+            These are also valid<br/>
+            <code>calmapi generate module product</code><br/>
+            <code>calmapi generate module products</code><br/>
+            <code>calmapi generate module productMeta</code><br/>
+            <code>calmapi generate module product-meta</code>
+          </p>
+
           <h3>Requirements</h3>
           <p>
             NodeJS version 12.x and above.<br/>
@@ -53,9 +64,10 @@ class Main extends React.Component {
               <li>Modules with automated Routing (Nested Route support)</li>
               <li>Built-in Authentication Module with JWT & DB Store authentication</li>
               <li>Built-in User Module</li>
+              <li>Built-in Media Module for file upload [AWS S3 Support]</li>
               <li>Build-in CRUD operations for modules with pagination, filters, sorters</li>
               <li>Sample Post Module (CRUD Operation Example)</li>
-              <li>CRUD Module generation command line support.[Alpha]</li>
+              <li>CRUD Module generation command line support.</li>
               <li>No Hidden sh*ts in your node_modules. Completely free to customize</li>
               <li>Prebuilt CRUD operation classes for Controller & Service</li>
               <li>DTO Support( Data transfer Object)</li>
