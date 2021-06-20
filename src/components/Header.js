@@ -19,13 +19,22 @@ const Header = props => (
     </div>
     <nav>
       <ul>
-        <li>
+        <li style={{'width': '130px'}}>
           <button style={{display: 'inline-block'}}
             onClick={() => {
               props.onOpenArticle('about')
             }}
           >
             More info
+          </button>
+        </li>
+        <li style={{'width': '130px'}}>
+          <button style={{display: 'inline-block'}}
+                  onClick={() => {
+                    window.open('https://docs.calmapi.dev', '_blank')
+                  }}
+          >
+            API Docs
           </button>
         </li>
       </ul>
