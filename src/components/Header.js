@@ -19,7 +19,7 @@ const Header = props => (
     </div>
     <nav>
       <ul>
-        <li style={{'width': '130px'}}>
+        <li style={{'min-width': '180px'}}>
           <button style={{display: 'inline-block'}}
             onClick={() => {
               props.onOpenArticle('about')
@@ -28,7 +28,7 @@ const Header = props => (
             More info
           </button>
         </li>
-        <li style={{'width': '130px'}}>
+        <li style={{'min-width': '180px'}}>
           <button style={{display: 'inline-block'}}
                   onClick={() => {
                     window.open('https://docs.calmapi.dev', '_blank')
